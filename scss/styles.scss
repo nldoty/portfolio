@@ -34,15 +34,18 @@
 */
 
 // Define base and accent colors
-$base-color: #dfdce3;
+$base-color: #0b3c5d;
 $base-color-hover: darken($base-color, 10%);
 
+//Define secondary colors
+$secondary-color: #dcdcdc;
+
 // Define background colors
-$background: #fff;
-$background-alt: #4abdac;
+$background: #1d2731;
+$background-alt: #328cc1;
 
 // Define border colors
-$border: #dcd9d9;
+$border: #d9b310;
 
 // Define text colors
 $heading: #374054;
@@ -446,6 +449,7 @@ footer {
 */
 
 #about {
+    background: $secondary-color;
     padding: 75px 15px;
     border-bottom: 1px solid $border;
 
@@ -577,6 +581,7 @@ footer {
 */
 
 #education {
+    background: $secondary-color;
     padding: 50px 15px 20px 15px;
     border-bottom: 1px solid $border;
     text-align: center;
@@ -695,6 +700,7 @@ footer {
 */
 
 #skills {
+    background: $secondary-color;
     padding: 50px 15px;
     text-align: center;
 
