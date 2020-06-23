@@ -171,7 +171,7 @@ header {
 
     a {
         display: block;
-        color: $base-color;
+        color: $border;
         padding: 10px;
 
         &:hover {
@@ -385,6 +385,10 @@ footer {
         font-weight: 500;
         font-size: 2.25em;
         margin-bottom: 15px;
+    }
+
+    h3 {
+        color: $border;
     }
 }
 
@@ -718,6 +722,7 @@ footer {
 
     li {
         display: inline-block;
+        border-radius:25px;
         margin: 7px;
         padding: 5px 10px;
         color: $heading;
@@ -949,6 +954,7 @@ footer {
             font-size: 1.3em;
         }
 
+
         a {
             padding: 10px 20px;
         }
@@ -997,6 +1003,7 @@ footer {
         h2 {
             font-size: 1em;
         }
+
 
         a {
             font-size: 0.9em;
