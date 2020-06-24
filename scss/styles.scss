@@ -209,7 +209,7 @@ header {
     position: fixed;
     right: 15px;
     top: 10px;
-    color: $base-color;
+    color: $border;
     font-size: 1.5em;
     z-index: 20;
     padding: 0 7px;
@@ -541,6 +541,12 @@ footer {
         font-size: 0.9em;
         margin: 0;
     }
+
+    li {
+        font-size: 0.9em;
+        font-weight: 100;
+        color: #232323;
+    }
 }
 
 .vtimeline-point {
@@ -574,8 +580,8 @@ footer {
     position: absolute;
     left: 0;
     top: 10px;
-    font-weight: 300;
-    color: #374054;
+    font-weight: 500;
+    color: $border;
 }
 
 /*

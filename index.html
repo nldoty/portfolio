@@ -80,6 +80,20 @@
                 </div>
             </div>
         </div>
+        <br />
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2 class="heading">About This Site</h2>
+                </div>
+                <div class="col-md-8">
+                    <p>
+                        This site was built using the <a href="https://github.com/RyanFitzgerald/devportfolio" target="_blank">RyanFitzgerald/devportfolio</a> project found on Github. I then customized the the pages and CSS how I liked. You can see the source code <a href="https://github.com/nldoty/portfolio" target="_blank">here</a>.
+                        The website is hosted internally on my network. A raspberry Pi acts as both a DNS client updating my domain provider with my IP address, and a reverse-proxy controlling all internet traffic from my router.
+                        The website is then hosted on a NUC running Linux, in a Docker container running Nginx.
+                </div>
+            </div>
+        </div>
     </div>
     <!-- End #about -->
 
@@ -90,11 +104,13 @@
                 <h3>U.S. News & World Report</h3>
                 <h4>Software Engineer</h4>
                 <p>
-                    Working as a fullstack engineer on the TED team (Technology-Education-Data) team, as part of the education vertical. The education team works on gathering data and producing education-related products, such as Best Colleges and Best Online.<br />
-                    Job responsibilities include:<br />
-                    Building a front-end application (DataPortal) for updating survey and school contact information, using React-Redux.<br />
-                    Making small changes to the backend API which connects to our database (API is Python-Pyramid based).<br />
-                    Coordinating worth with a remote contractor for updates to the Data Portal.<br />
+                    Working as a full-stack engineer on the TED team (Technology-Education-Data) team, as part of the education vertical. Responsibilities include: <br />
+                    <ul>
+                        <li>Lead developer on an internal tool for updating school resources, built in React/Redux.</li>
+                        <li>Lead developer on Community Colleges data load and CI/CD pipelines, built in Python and Postgres.</li>
+                        <li>Developer on Best Online Programs data load and CI/CD, built in Python and Postgres.</li>
+                        <li>Lead the Technology department weekly process meetings for both back-end and front-end meetings.</li>
+                    </ul>
                 </p>
             </div>
 
@@ -102,33 +118,38 @@
                 <h3>Royce Geospatial</h3>
                 <h4>Software Engineer</h4>
                 <p>
-                    Working on contract with the National Geospatial-Intelligence Agency as a sub-contractor to Booz Allen Hamilton on the ASC (Analytical Services Contract) program.<br />
-                    Job responsibilities included helping to architect/develop the software NGA would use to compute bayesian statistical models, do low-side deployments, and write testing suites. Also worked as a step-in scrum master when scrum master was unable to complete duties, and helped mentor a team of junior developers.<br />
-                    Work was done using Java as well as some Javascript/Node.JS/Angular.JS.<br />
+                    Worked on contract with the National Geospatial-Intelligence Agency as a sub-contractor to Booz Allen Hamilton on the ASC (Analytical Services Contract) program. Responsibilities included:<br />
+                    <ul>
+                        <li>Developing/architecting middleware software to computer bayesian statistical models in Java.</li>
+                        <li>Completing low-side deployments, writing test suites, and updating previously built visual tools in Javascript/Node.js</li>
+                        <li>Mentoring team of junior developers, and acting as step-in scrum master when scrum master was unavailable.</li>
+                    </ul>
                 </p>
             </div>
             <div data-date="November 2015 – January 2017">
                 <h3>Caerus Associates</h3>
                 <h4>Software Engineer</h4>
                 <p>
-                    Working on the NetDefense program for DARPA which was an applied research contract to determine methods of enhancing network cyber security. The specific focus was to find anomalous behavior within networks that wasn't detectable with traditional firewall-like approaches.<br />
-                    Contract used extremely large data sets (100+ billion entries) to design machine-learning approaches to finding anomalous behavior, including supervised and unsupervised learning algorithms (nearest-neighbor, K-Means clustering, z-scores, etc).<br />
-                    Primary responsibilities included taking data science concepts and transforming them into code (using scala and java) to run clustering algorithms on data sets, with a primary focus on scalability and threading.<br />
-                    Present findings to data customers and update algorithms for efficiency and success.<br />
-                    As of June 2016, Caerus Associates is a wholly-owned subsidiary of Cybraics.
+                    Worked on the NetDefense program for DARPA which was an applied research contract to determine methods of enhancing network cyber security. The specific focus was to find anomalous behavior within networks that wasn't detectable with traditional firewall-like approaches. Responsiblities included:<br />
+                    <ul>
+                        <li>Taking algorithms developed by data scientists and turning them into software, focusing on scalability and threading. Built using Scala, Java and Apache Spark.</li>
+                        <li>Built machine-learning approaches to finding anomalous behavior, including supervised and unsupervised learning algorithms (nearest-neighbor, K-Means clustering, z-scores, etc)</li>
+                        <li>Applications needed to scale on extremely large data sets (100+ billion entries).</li>
+                    </ul>
                 </p>
+                <p>As of June 2016, Caerus Associates is a wholly-owned subsidiary of Cybraics.</p>
             </div>
             <div data-date="September 2014 – November 2015">
                 <h3>Northrop Grumman</h3>
                 <h4>Software Engineer</h4>
                 <p>
-                    Working as a contractor for the 557th Weather Wing, formerly AFWA (Air Force Weather Agency), under the 16th Weather Squadron.<br />
-                    Primary duties included:<br />
-                    Facilitating communication between on-site workers and remote contract workers. Acting as a stand-in scrum master, and communicating with Air Force leadership about changes presented in tickets.<br />
-                    Leading presentations to leadership at the end of sprints.<br />
-                    Developing new features/fixing bugs in the Weather app, which is used by the AF for determining weather patterns that could impact missions and/or flights.<br />
-                    Developing new end-to-end products for space weather data.<br />
-                    Working on-call to respond to issues impacting mission critical systems.<br />
+                    Worked as a contractor for the 557th Weather Wing, formerly AFWA (Air Force Weather Agency), under the 16th Weather Squadron. Responsibilities included:<br />
+                    <ul>
+                        <li>Developing new features/fixing bugs in the USAF Weather app, which is used for determining weather patterns that could impact missions and/or flights. App was built using Flash (🤮).</li>
+                        <li>Developing new end-to-end products for space weather data.</li>
+                        <li> Working on-call to respond to issues impacting mission critical systems.</li>
+                        <li>Facilitating communication between on-site workers and remote contract workers. Acting as a stand-in scrum master and communicating with USAF leadership about changes presented in tickets.</li>
+                    </ul>
                 </p>
             </div>
             <div data-date="November 2013 – September 2014">
@@ -136,7 +157,9 @@
                 <h4>Web Application Engineer (Intern)</h4>
                 <p>
                     Worked as an intern part-time from Nov 2013 to May 2014 and full-time from May 2014 to September 2014 on the St. Baldrick's Team.<br />
-                    Made changes to the St. Baldrick's website at the request of product owners.
+                    <ul>
+                        <li>Made changes to the St. Baldrick's website at the request of product owners.</li>
+                    </ul>
                 </p>
             </div>
         </div>
@@ -246,6 +269,7 @@
         <div id="contact-form">
             <form method="POST" action="https://formspree.io/doty.nick@gmail.com">
                 <input type="hidden" name="_subject" value="Contact request from personal website" />
+                <input type="text" name="_gotcha" style="display:none" />
                 <input type="email" name="_replyto" placeholder="Your email" required>
                 <textarea name="message" placeholder="Your message" required></textarea>
                 <button type="submit">Send</button>
