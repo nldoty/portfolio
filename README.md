@@ -15,5 +15,5 @@ This project uses the free MIT license as part of its fork. See [LICENSE.md](LIC
 ## Instructions
 
 In order to setup the project, you will need Docker. Run the following docker commands:
-`docker build -t nldoty/portfolio .`
+`docker build -t nldoty/portfolio .`      
 `docker run -d -p 8080:3000 --name nldoty_portfolio nldoty/portfolio`
